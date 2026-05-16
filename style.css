@@ -3,9 +3,13 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body{
+    background-color: #040210;
+}
 .navBar{
     width: 100%;
     background-color: #070010;
+    border-bottom: 2px solid white;
 }
 nav{
     display: flex;
@@ -14,6 +18,7 @@ nav{
     color: #DCD9E2;
     justify-content: space-between;
     padding: 1rem;
+    
 }
 .logoContainer{
     display: flex;
@@ -74,6 +79,8 @@ nav{
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    border-right: 2px solid white;
+    padding: 1rem;
 
 }
 .leftContainer a{
@@ -83,8 +90,15 @@ nav{
     font-weight: 400;
     font-style: normal;
     font-size: 25px;
+    
+}
+.headingWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 .headingWrapper h2{
+    font-size: 5rem;
     color: #D8D6E0;
 
 }
@@ -92,6 +106,13 @@ nav{
     color: #404252;
 
 }
+.headingWrapper h3 i{
+    color: red;  
+}
+.headingWrapper h3 i:hover{
+    height: 2rem;
+}
+
 .typeWrapper{
     display: flex;
     gap: 1rem;
@@ -106,6 +127,13 @@ nav{
     height:3rem;
     width: 6rem;
     border-radius: 10px;
+    border: none;
+    transition: 0.3s;
+    cursor: pointer;
 
+}
+.typeWrapper button:hover{
+    background-color: #113941;
+    
 }
 
