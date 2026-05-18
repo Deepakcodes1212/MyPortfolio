@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(141, 135, 135);
+    color: black;
 }
 .navBar{
     width: 100%;
-    background-color: #070010;
+   
     border-bottom: 2px solid white;
 }
 nav{
