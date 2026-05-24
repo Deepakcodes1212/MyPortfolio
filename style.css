@@ -85,12 +85,17 @@ nav{
 }
 .leftContainer a{
     text-decoration: none;
+    padding: 1rem;
     color: #9C9CA0;
     font-family: "Lilita One", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 25px;
+    transition: 0.3s;
     
+}
+.leftContainer a:hover{
+    background-color:  #113941;
 }
 .headingWrapper{
     display: flex;
