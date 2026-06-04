@@ -101,6 +101,9 @@ nav{
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    background-color: #3DE9D2;
+    border-radius: 10px;
+    padding: 1rem;
 }
 .headingWrapper h2{
     font-size: 5rem;
