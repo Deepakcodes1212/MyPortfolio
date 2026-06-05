@@ -144,4 +144,16 @@ nav{
     background-color: #113941;
     
 }
+.projectlist{
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+
+}
+.projectl{
+    height: 15rem;
+    width: 15rem;
+    background-color: #3DE9D2;
+    border-radius: 10px;
+}
 
