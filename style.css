@@ -5,7 +5,7 @@
 }
 
 body {
-
+    /* Added a dark background to match your aesthetic and ensure text contrast */
     background-color: #0d0f12; 
     color: #DCD9E2;
     font-family: 'Google Sans', sans-serif;
