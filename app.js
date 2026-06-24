@@ -1,20 +1,15 @@
-const sideBar=document.querySelector(".sideBar");
+const sideBarBtn=document.querySelector(".sideBarToggle");
 const leftContainer=document.querySelector(".leftContainer");
-let sidebarState=true;
-sideBar.addEventListener("click",function(){
-    if(sidebarState==true){
-        leftContainer.style.visibility='hidden';
-        sidebarState=false;
 
-    }
-    else{
-        leftContainer.style.visibility='visible';
-        sidebarState=true;
+if (sideBarBtn && leftContainer) {
 
-    }
+    sideBarBtn.addEventListener("click", function() {
+        
+        
+        leftContainer.classList.toggle("collapsed");
 
-
-
-
-
-})
+       
+        const isExpanded = sideBarBtn.getAttribute("aria-expanded") === "true";
+        sideBarBtn.setAttribute("aria-expanded", !isExpanded);
+    });
+}
